@@ -1,3 +1,26 @@
+Project Detail¶
+In the manufacturing industry, reducing processing errors in the manufacturing process is important for maximizing profits. In order to reduce processing errors, it is necessary to secure a budget for quality assurance, implement manual inspection work, and review the manufacturing process. Particularly, the inspection process is carried out by many companies, but there are problems such as uneven accuracy denpending on inspection workers and increased labor costs.
+In this analysis, we will verify whether the bottleneck of "manual inspection" can be cleared by automating the inspection process by machine learning in the manufacturing process of casting products. Casting is a technique in which molten metal is poured into a mold and processed into a desired shape.
+According to this article, the following are some of the defects in the casting process.
+
+blow holes
+pinholes
+burr
+shrinkage defects
+mould material defects
+pouring metal defects
+metallurgical defects
+About Dataset
+This dataset provides image data of impellers for submersible pumps.
+
+
+
+Submersible Pump
+
+Impeller
+
+The image data is labeled with ok(normal) and def(defect/anomaly) in advance. In addition, since it is necessary to illuminate the image in a stable condition when acquiring the image, the data was acquired based on a special lighting setting.
+
 Context
 This dataset is of casting manufacturing product.
 Casting is a manufacturing process in which a liquid material is usually poured into a mould, which contains a hollow cavity of the desired shape, and then allowed to solidify.
